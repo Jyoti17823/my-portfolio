@@ -1,0 +1,46 @@
+/* navigation  */
+nav{
+    flex-direction: column;
+    font-size:12px;
+    flex-wrap: wrap;
+}
+
+/* home section  */
+#home{
+    height: 355px;
+
+}
+#portfolio{
+    margin-left: -51px;
+    margin-top: 822px;
+}
+.portheading{
+    margin: 15px 0px;
+}
+.content{
+    height: 320px;
+    font-size: 23px;
+margin: -26% -12%;
+padding: 30px 81px;}
+
+.portheading p{
+    font-size: 2rem;
+}
+#portfolio .box{
+    padding: 33px;
+    margin: 32px 69px;
+}
+.box p{
+    align-items: center;
+    justify-content: center;
+    margin: 36px 108px;
+}
+
+
+/* section1 */
+.container{
+    flex-direction: column;
+}
+.btn{
+    flex-direction: column;
+}

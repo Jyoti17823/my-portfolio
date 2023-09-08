@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JYOTI PORTFOLIO | jyotiportfolio.com</title>
+    <!-- to make site responsive  -->
+    <link rel="stylesheet" media="screen and (max-width:1400px) and (min-width:800px)" href="css/phone.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="css/phone2.css">
+   <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(193, 191, 208);
+            color: rgb(90, 85, 73);
+            /* font-family: 'Lugrasimo', cursive; */
+            font-family: 'Roboto', sans-serif;
+        }
+        /* #navbar{
+              position: sticky;  */
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(227, 226, 246);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(86, 175, 150);
+        }
+
+        nav ul li a:hover {
+            color: rgb(54, 107, 116);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: black;
+        }
+        #element a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            }
+        #element a:hover{
+        color: rgb(225, 213, 213);
+        }
+        /* #firstsection{
+    display: flex;
+    flex-direction:column ;
+    padding: 3px 180px;
+    /* justify-content: center; 
+} */
+        #Home {
+            /* content: ""; */
+            position: absolute;
+            background: url('photopotfolio.jpg') no-repeat center center/cover;
+            height: 630px;
+            width: 100%;
+            /* z-index: -1;
+    opacity: 0.90; */
+        }
+
+        .content {
+            display: flex;
+            font-size: 48px;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            margin: 14% 7%;
+            padding: 23px 90px;
+        }
+        .btn {
+            padding: 6px 20px;
+            border: 1px solid white;
+            background-color: #767070;
+            color: white;
+            cursor: pointer;
+        }
+
+        .portheading {
+            color: rgb(57, 93, 50);
+            font-size: 32px;
+margin: 0px 102px;
+        }
+
+        hr {
+            width: 25%;
+
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            margin:0px 7px;
+flex-wrap: wrap;
+        }
+
+        #portfolio {
+            font-size: 1rem;
+            margin-left: 0px;
+            margin-top: 650px;
+            /* margin: 23px 54px; */
+            /* display: flex; */
+            /* flex-direction: column; */
+        }
+
+        #portfolio .box {
+
+            padding: 33px;
+            margin: 14px 180px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #portfolio .box img {
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            display: block;
+        }
+.text{
+   font-size: 34px;
+    margin: 21px;
+    padding-left: 60px; 
+    justify-content: center;
+    align-items: center;
+}
+        footer {
+            background-color: rgb(227, 226, 246);
+            color: black;
+            padding: 23px 24px;
+            height: 28px;
+        }
+
+        footer ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footerj ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .footerj ul li a {
+            text-decoration: none;
+            color: rgb(86, 175, 150);
+        }
+
+        .footerj ul li a:hover {
+            color: rgb(54, 107, 116);
+            font-size: 1.01rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jyoti Chouriya</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="/">Kind Words</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">let's connect</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- <main> -->
+        <section id="Home">
+            <!-- <img src="photopotfolio.jpg" alt=""> -->
+            <div class="content">
+                <h1 class="leftsection"> Hi,I am Jyoti</h1>
+                <div>I am a passionate Web Developer</div>
+                <span id="element">
+                    <button class="btn">
+                        <a href="">Download Resume</a> </button>
+                    <button class="btn"><a href="https://github.com/">Visit Github</a></button></span>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div>
+                <h1 class="portheading">
+                    Portfolio</h1>
+                <div>
+                    <p class="portheading">check it out</p>
+                </div>
+                <hr class="portheading">
+                
+                <div class="container">
+                    <div class="box">
+                        <img src="chimeraX23.png">
+                
+                        <p class="text">chimeraX23</p>
+                    </div>
+                    <div class="box">
+                       <img src="internpe certificate.jpg">
+                        <p class="text">internpe</p>
+                    </div>
+                    <div class="box">
+                        <img src="Raymond internship certificate.jpg">
+                        <p class="text">Raymond</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<footer>
+        <div class="footerj">
+            <ul>
+                <li><a href=".">copyright</a></li>
+                <li><a href="\">send me an email</a></li>
+
+
+            </ul>
+        </div>
+    </footer>
+    <!-- </main> -->
+    
+</body>
+
+</html>

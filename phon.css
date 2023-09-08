@@ -1,0 +1,40 @@
+/* navigation  */
+nav{
+    flex-direction: column;
+}
+
+/* home section  */
+#home{
+    height: 574px;
+
+}
+#portfolio{
+    margin-left: -51px;
+    margin-top: 822px;
+}
+.portheading{
+    margin: 15px 0px;
+}
+.content{
+    height: 320px;
+    font-size: 30px;
+margin: 17% 3%;
+}
+.portheading p{
+    font-size: 2rem;
+}
+#portfolio .box{
+    padding: 33px;
+    margin: 32px 69px;
+}
+.box p{
+    align-items: center;
+    justify-content: center;
+    margin: 36px 108px;
+}
+
+
+/* section1 */
+.container{
+    flex-direction: column;
+}
