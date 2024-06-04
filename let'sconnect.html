@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let's connect</title>
+    <style>
+        *{ 
+          margin-top: 0px;
+          font-family: 'Roboto', sans-serif;
+          /* color: rgb(69, 53, 53); */
+           background-color: rgb(89, 63, 63);
+        }
+        h1{
+            /* display: flex; */
+            justify-content: center;
+        }
+        /* nav{ 
+       background-color: rgb(154, 73, 161);
+           display: flex;
+           justify-content:center;
+     align-items: center;
+} */
+        
+.formbox{
+   
+     /* background-image: url("th (1).jpg");
+     opacity: 3;
+   background-size: cover; */
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;
+}
+label{
+    margin: 5px;
+}
+nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(227, 226, 246);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(227, 226, 246);
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(86, 175, 150);
+            background-color: rgb(227, 226, 246);
+        }
+
+        nav ul li a:hover {
+            color: rgb(54, 107, 116);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: black;
+            background-color: rgb(227, 226, 246);
+        }
+.right{
+    background-color: rgb(227, 226, 246);
+}
+
+
+    </style>
+</head>
+<body >
+ <header>
+    <nav>
+        <div class="left">Jyoti Chouriya</div>
+        <div class="right">
+            <ul>
+                <li><a href="\nportfolio-website\index.html">Home</a></li>
+                <li><a href="\nportfolio-website\index.html">Portfolio</a></li>
+                <li><a href="/">Kind Words</a></li>
+                <li><a href="\nportfolio-website\about.html">About</a></li>
+                <li><a href="/nportfolio-website/let'sconnect.html">let's connect</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <br>
+     <div class="formbox">
+    <Form > 
+        <H1>FILL THIS FORM </H1>
+        <P>enter your name</P>
+    <input type="text" placeholder="enter name">
+    <br>
+    <br>
+    <P>enter your email id</P>
+    <input type="e-mail" placeholder ="enter your e-mail id">
+    <br>
+    <label>
+        <P>enter your gender</P>
+        <input type="radio" value="female" name="class" id="220">female</label>
+        <label>
+        <input type="radio" value="male" name="class" id="221">male</label>
+        <br>
+        <label>
+            <p>enter your age</p>
+            <input type="number" name="num" min ="20" max="60">
+            <br>
+            <br>
+        <P>which language do you speak</P> 
+        <input type="checkbox" value="hindi" name="subject" id="l1">hindi</label>
+        <label>
+        <input type="checkbox" value="english" name="subject" id="l2">english
+    </label>
+        <input type="checkbox" value="marathi" name="subject" id="l3">marathi
+        <input type="checkbox" value="telugu" name="subject" id="l4">telugu
+        <br>
+        <br>
+       <p>select your city</p>
+       <select name="city" id="c1">
+        <option value="delhi">delhi</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="banglore">banglore</option>
+        <option value="chennai">chennai</option>
+        <option value="other" type="text" placeholder="name">other
+            
+        </option>
+       </select>
+  <br>
+  <br>
+ <span><input type="submit" value="submit" onclick="alert('you are learning HTML')"></span> 
+  <br>
+  <br>
+        <input type="reset" value="reset">
+    </Form>
+ </div>
+</body>
+</html>
